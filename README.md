@@ -1,4 +1,4 @@
-# xivn.dev — Midnight Winter V6
+# xivn.dev — Midnight Winter V7
 
 Source code for the complete **xivn.dev** Minecraft developer portfolio.
 
@@ -8,7 +8,7 @@ Source code for the complete **xivn.dev** Minecraft developer portfolio.
 - `styles.css`: complete responsive design, winter atmosphere, and entrance animations
 - `site.js`: snowfall effect, snow preference toggle, mobile navigation, reveal animations, and copy-to-clipboard inquiry form
 - `assets/`: original Discord review screenshots
-- `favicon.svg`: favicon
+- `favicon.svg`: subtle winter-spark favicon (no large V / X)
 
 ## Preview the entire site
 
@@ -67,3 +67,18 @@ favicon.svg
 .gitignore
 README.md
 ```
+
+## V7 changes / preview metadata
+
+- Browser tab title on the homepage is `xivn.dev`.
+- Sharing a link shows `xivn.dev` with a short, page-relevant description.
+- There is intentionally **no Open Graph social preview image**, to keep Discord and chat embeds minimal.
+- Replaced the old V favicon with a small winter spark.
+- Updated the hero subheading to **Minecraft Developer**.
+- Updated the community line to **Explore across many communities.**
+- Expanded the work archive with truthful descriptions based on your supplied roles, especially AceMC's Helper-to-Co-owner progression.
+- Discord and other social platforms may cache the old embed for a while after you deploy. You can test a refreshed card by sharing a fresh URL with a query string such as `https://xivn.vercel.app/?v=7`. The query string does not affect the site.
+
+### Deploy to Vercel
+
+This is a static HTML site. Upload the contents of the folder at the repository root and deploy it as an **Other** / no-framework project. No build command is needed. If you already connected your GitHub repository to Vercel, commit the changed files and Vercel will redeploy automatically.
